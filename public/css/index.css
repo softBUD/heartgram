@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "CODE_Light";
+  src: url("CODE_Light.ttf");
+}
+@font-face {
+  font-family: "CODE_Bold";
+  src: url("CODE_Bold.otf");
+}
+@font-face {
+  font-family: "Monoglyceride";
+  src: url("Monoglyceride.ttf");
+}
+@font-face {
+  font-family: "MonoglycerideBold";
+  src: url("MonoglycerideBold.ttf");
+}
+@font-face {
+  font-family: "MonoglycerideDemiBold";
+  src: url("MonoglycerideDemiBold");
+}
+@font-face {
+  font-family: "MonoglycerideExtreaBold";
+  src: url("MonoglycerideExtraBold.ttf");
+}
+
+.containder {
+  background-color: #fdeff4;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border-bottom: 0.5px solid rgba(107, 86, 91, 0.322);
+}
+
+h1 {
+  padding: 0 2rem;
+  color: #000;
+  font-family: "MonoglycerideBold";
+  font-size: 2rem;
+}
+
+.navMenu {
+  color: #524a4e;
+  padding: 1.2rem 1.5rem;
+  font-family: "CODE_Bold";
+  font-size: 1.2rem;
+}
+
+#writeForm {
+  width: 500px;
+}
